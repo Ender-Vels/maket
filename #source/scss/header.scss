@@ -1,0 +1,38 @@
+.header_block{
+    display: flex;
+    height: 50px;
+    width: 1280px;
+    margin: 0px auto;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+    .site_name a{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.56px;
+        color: #141414;
+        text-decoration: none;
+    }
+    .menu_list{
+        display: flex;
+        list-style: none;
+        li:first-child{
+            padding: 14px 40px 15px 40px;
+        }
+        li:last-child{
+            padding: 14px 0px 15px 0px;
+        }
+        a{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 21px;
+            letter-spacing: 0.56px;
+            color: #141414;
+            text-decoration: none;
+        }
+    }
+}
